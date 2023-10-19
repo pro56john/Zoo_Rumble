@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264344643019064689}
   - component: {fileID: 8801884552768394744}
+  - component: {fileID: 3592401978157140031}
   m_Layer: 0
   m_Name: Elephant
   m_TagString: Elephant
@@ -48,6 +49,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3592401978157140031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639780123639128011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.607826, y: 12.444836, z: 8.851813}
+  m_Center: {x: -2.1220326, y: 5.7224207, z: -0.033282436}
 --- !u!1 &1896305240791711712
 GameObject:
   m_ObjectHideFlags: 0

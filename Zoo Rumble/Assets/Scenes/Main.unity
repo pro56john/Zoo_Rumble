@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424053161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 19.3, z: -50.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -417,7 +417,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elephant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3592401978157140031, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
 --- !u!4 &543450651899406724
 Transform:
@@ -475,6 +476,7 @@ GameObject:
   - component: {fileID: 3745622626925949665}
   - component: {fileID: 5334037118883415167}
   - component: {fileID: 4539702728709314720}
+  - component: {fileID: 832149485853637644}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -482,6 +484,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &832149485853637644
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485853637643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9999999, y: 3.4166658, z: 5.462262}
+  m_Center: {x: -0.0000047683716, y: 0.0000009536743, z: -0.39307207}
 --- !u!1 &919132147642233662
 GameObject:
   m_ObjectHideFlags: 0
