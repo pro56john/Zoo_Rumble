@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -206,6 +206,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &438811237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 639780123639128011, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
+  m_PrefabInstance: {fileID: 297692155317455123}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &438811238
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438811237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 21.120747, y: 12.549257, z: 9.009223}
+  m_Center: {x: -2.3505504, y: 5.774628, z: 0.084995426}
 --- !u!1 &496641345
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496641345}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 82.6, y: 26.3, z: -102.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -357,11 +375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 264344643019064689, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 9.3
       objectReference: {fileID: 0}
     - target: {fileID: 264344643019064689, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.28
       objectReference: {fileID: 0}
     - target: {fileID: 264344643019064689, guid: cb1a603e54b41dc4085d9dc05ed9adf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -506,6 +524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652204294899}
+  - component: {fileID: 919132148536391754}
   m_Layer: 0
   m_Name: Road
   m_TagString: Road
@@ -513,6 +532,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &919132148536391754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148536391753}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.12576, y: 0.080150664, z: 7.479793}
+  m_Center: {x: -0.034726717, y: 0, z: 0.6931557}
 --- !u!1 &919132148732952335
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2679124637910388150, guid: 1de43cc902c6c584489fc9c7cea3238a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2679124637910388150, guid: 1de43cc902c6c584489fc9c7cea3238a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -783,7 +815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3655000510275538014}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 7.3, z: -15.5}
+  m_LocalPosition: {x: -2.6, y: 7.9, z: -19.6}
   m_LocalScale: {x: 0.5, y: 0.5, z: 7}
   m_Children: []
   m_Father: {fileID: 543450652923012533}
