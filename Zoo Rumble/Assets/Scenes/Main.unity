@@ -462,6 +462,7 @@ GameObject:
   - component: {fileID: 5334037118883415167}
   - component: {fileID: 4539702728709314720}
   - component: {fileID: 832149485853637644}
+  - component: {fileID: 832149485853637645}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -482,6 +483,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9999999, y: 3.4166658, z: 5.462262}
   m_Center: {x: -0.0000047683716, y: 0.0000009536743, z: -0.39307207}
+--- !u!95 &832149485853637645
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832149485853637643}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b0ab081e9a9f674aa1e18c5e9b04a19, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &919132147642233662
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149485853637643}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -82.7, y: -54.03, z: -21}
+  m_LocalPosition: {x: -89.19, y: -46.34, z: -8.72}
   m_LocalScale: {x: 0.88000005, y: 1.2, z: 1.5}
   m_Children: []
   m_Father: {fileID: 543450651899406724}
