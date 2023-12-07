@@ -19,6 +19,6 @@ public class PlayerController : MonoBehaviour
     private void LateUpdate()
     {
         transform.Translate(0f, 0f, move);
-        transform.Translate(move, 0f, 0f);
     }
+    
 }
