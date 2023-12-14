@@ -8,17 +8,26 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        moveSpeed = 15f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        move = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        if (Input.GetKey(KeyCode.LeftArrow))
+
+        {
+
+            this.transform.Translate(new Vector3(0f, 0f, 10f) * Time.deltaTime, Space.Self);
+
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+
+        {
+
+            this.transform.Translate(new Vector3(0f, 0f, -10f) * Time.deltaTime, Space.Self);
+
+        }
+
     }
-    private void LateUpdate()
-    {
-        transform.Translate(0f, 0f, move);
-    }
-    
 }
