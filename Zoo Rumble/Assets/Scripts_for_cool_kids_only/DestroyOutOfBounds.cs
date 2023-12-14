@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DestroyOutOfBounds : MonoBehaviour
 {
-    private float frontLimit = 30;
-    private float sideLimit = -5;
+    private float frontLimit = 10;
+    private float sideLimit = -50;
 
     // Update is called once per frame
     void Update()

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
         {
 
-            this.transform.Translate(new Vector3(0f, 0f, 10f) * Time.deltaTime, Space.Self);
+            this.transform.Translate(new Vector3(0f, 0f, 40f) * Time.deltaTime, Space.Self);
 
         }
 
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
         {
 
-            this.transform.Translate(new Vector3(0f, 0f, -10f) * Time.deltaTime, Space.Self);
+            this.transform.Translate(new Vector3(0f, 0f, -40f) * Time.deltaTime, Space.Self);
 
         }
 
