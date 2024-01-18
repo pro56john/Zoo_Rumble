@@ -5,9 +5,15 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float move, moveSpeed;
+    public bool isOnGround = true;  
+    public bool gameOver = false;
+    private Animator playerAnim;
+    private BoxCollider boxCollider;
     // Start is called before the first frame update
     void Start()
     {
+        playerAnim = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -29,5 +35,22 @@ public class PlayerController : MonoBehaviour
 
         }
 
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Road"))
+        {
+            isOnGround = true;
+          
+        }
+        else if (other.gameObject.CompareTag("Obstacle"))
+        {
+            gameOver = true;
+            Debug.Log("Game Over!");
+            playerAnim.SetBool("Death_A",true);
+            
+
+        }
     }
 }
