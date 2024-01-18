@@ -8,6 +8,7 @@ TagManager:
   - Road
   - Streetpole
   - Elephant
+  - SpawnTrigger
   layers:
   - Default
   - TransparentFX
