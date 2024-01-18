@@ -15,4 +15,8 @@ public class ObjectCollision : MonoBehaviour
     {
         
     }
+    void OnTriggerEnter(Collider other)
+    {
+        
+    }
 }
