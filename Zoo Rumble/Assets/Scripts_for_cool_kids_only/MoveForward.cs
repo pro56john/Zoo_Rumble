@@ -7,6 +7,7 @@ public class MoveForward : MonoBehaviour
     public float speed = 15.0f; 
     public bool isOnGround = true, gameOver = false;
     private BoxCollider boxCollider;
+    public SpawnRoads spawnManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,5 +39,7 @@ public class MoveForward : MonoBehaviour
             
 
         }
+
     }
+    
 }
