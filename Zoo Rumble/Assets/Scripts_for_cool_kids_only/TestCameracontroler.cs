@@ -5,13 +5,8 @@ using UnityEngine;
 public class TestCameracontroler : MonoBehaviour
 {
     private Transform player;
-<<<<<<< Updated upstream
     private float yOffset = 40f;
     private float  zOffset = -70f;
-=======
-    private float yOffset = 30f;
-    private float  zOffset = -40f;
->>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
