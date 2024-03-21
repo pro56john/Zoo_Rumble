@@ -8,7 +8,7 @@ public class TestCameracontroler : MonoBehaviour
 
     private float yOffset = 40f;
 
-    private float  zOffset = -50f;
+    private float  zOffset = -70f;
     // Start is called before the first frame update
     void Start()
     {
