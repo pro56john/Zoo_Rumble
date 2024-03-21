@@ -5,7 +5,9 @@ using UnityEngine;
 public class TestCameracontroler : MonoBehaviour
 {
     private Transform player;
+
     private float yOffset = 40f;
+
     private float  zOffset = -50f;
     // Start is called before the first frame update
     void Start()
