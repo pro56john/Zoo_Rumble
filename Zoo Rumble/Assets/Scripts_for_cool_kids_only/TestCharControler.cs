@@ -26,8 +26,6 @@ public class TestCharControler : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
 
     }
-
-
     // Update is called once per frame 
 
     void Update()
