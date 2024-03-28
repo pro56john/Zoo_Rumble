@@ -8,7 +8,7 @@ public class ObstacleSpawner : MonoBehaviour
 {
     private int spawnInterval = 250; // Where does the spawning begin
     private int lastSpawnZ = 150;
-    private int SpawnAmount = 2;
+    private int SpawnAmount = 3;
 
     public List<GameObject> obstacles;
     void Start()
