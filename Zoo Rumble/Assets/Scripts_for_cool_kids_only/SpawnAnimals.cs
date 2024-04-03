@@ -17,7 +17,7 @@ public class SpawnAnimals : MonoBehaviour
     private float znew;
     private Vector3 spawnPos;
     private double PrefabDistance;
-    private float Distance = 50;
+    private float Distance = 100;
     private Vector3 positionBeginning;
     private Vector3 PrefabPosition;
     public float playerZ;
@@ -27,18 +27,20 @@ public class SpawnAnimals : MonoBehaviour
 
     private GameObject[] ElephantClones 
     { 
-        get => _elephantClones; 
+        get => _elephantClones;
         set => _elephantClones = value; 
     }
+   
 
 
     // Start is called before the first frame update
     void Start()
     {
+        ElephantClones = new GameObject[30];
         int animalIndex = Random.Range(0, animalPrefabs.Length);
         spawnPos = new Vector3(Random.Range(-SpawnRangeX, SpawnRangeX),
         0, Random.Range(playerZ + 100f, playerZ + SpawnRangeZoffset));
-        ElephantClones[0] = Instantiate(animalPrefabs[animalIndex], spawnPos, //needs to be looked at
+        ElephantClones[j] = Instantiate(animalPrefabs[animalIndex], spawnPos, //needs to be looked at
                animalPrefabs[animalIndex].transform.rotation);
         player.transform.position = positionBeginning;
         positionBeginning.z = playerZ;
