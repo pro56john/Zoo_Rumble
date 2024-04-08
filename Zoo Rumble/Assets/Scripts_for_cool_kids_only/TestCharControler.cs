@@ -12,8 +12,8 @@ public class TestCharControler : MonoBehaviour
     public bool gameOver = false;
 
     private Animator playerAnim;
-
     private BoxCollider boxCollider;
+
 
     // Start is called before the first frame update 
 
@@ -31,16 +31,10 @@ public class TestCharControler : MonoBehaviour
     void Update()
 
     {
-
         if (Input.GetKey(KeyCode.LeftArrow))
-
-
-
         {
 
-
-
-            this.transform.Translate(new Vector3(0f, 0f, 60f) * Time.deltaTime, Space.Self);
+            this.transform.Translate(new Vector3(0f, 0f, 80f) * Time.deltaTime, Space.Self);
 
 
 
@@ -63,9 +57,7 @@ public class TestCharControler : MonoBehaviour
 
 
 
-            this.transform.Translate(new Vector3(0f, 0f, -60f) * Time.deltaTime, Space.Self);
-
-
+            this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
 
         }
 
@@ -78,15 +70,10 @@ public class TestCharControler : MonoBehaviour
     private void OnCollisionEnter(Collision other)
 
     {
-
         if (other.gameObject.CompareTag("Road"))
 
         {
-
             isOnGround = true;
-
-
-
         }
 
         else if (other.gameObject.CompareTag("Obstacle"))
@@ -103,7 +90,7 @@ public class TestCharControler : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        spawnManager.SpawnTriggerEntered(); 
+        spawnManager.SpawnTriggerEntered();
     }
     
 }

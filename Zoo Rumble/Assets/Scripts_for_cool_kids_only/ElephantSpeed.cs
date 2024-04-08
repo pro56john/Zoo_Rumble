@@ -8,7 +8,7 @@ public class ElephantSpeed : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(30, 70);
+        speed = Random.Range(40, 80);
     }
 
     // Update is called once per frame
