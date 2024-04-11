@@ -13,6 +13,7 @@ public class TestCharControler : MonoBehaviour
 
     private Animator playerAnim;
     private BoxCollider boxCollider;
+    private float speed = 150f;
 
 
     // Start is called before the first frame update 
@@ -39,14 +40,9 @@ public class TestCharControler : MonoBehaviour
 
 
         }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
 
-            this.transform.Translate(new Vector3(150f, 0f, 0f) * Time.deltaTime, Space.Self);
-
-
-
-        }
+        speed = speed + 0.1f;
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
 
 
         if (Input.GetKey(KeyCode.RightArrow))

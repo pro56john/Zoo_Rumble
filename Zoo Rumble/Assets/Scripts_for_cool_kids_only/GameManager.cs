@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         int distance = Mathf.RoundToInt(player.transform.position.z);
+        distance = distance / 10;
         uiDistance.text = distance.ToString()+"m";
     }
 }
