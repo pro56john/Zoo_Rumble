@@ -9,6 +9,7 @@ TagManager:
   - Streetpole
   - Elephant
   - SpawnTrigger
+  - Coin
   layers:
   - Default
   - TransparentFX
