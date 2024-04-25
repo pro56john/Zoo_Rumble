@@ -44,7 +44,6 @@ Transform:
   - {fileID: 7668887436811109703}
   - {fileID: 6480281197788076220}
   - {fileID: 9067175871881114992}
-  - {fileID: 8298591881536031916}
   - {fileID: 1720296987834769005}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -131,6 +130,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -280,6 +283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle01_Vespa (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -356,7 +363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalScale.x
@@ -427,6 +434,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -502,6 +513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle01_Vespa (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -576,6 +591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle01_Vespa (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -649,6 +668,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -742,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.37611
+      value: 22.9
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -797,6 +820,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -871,6 +898,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -964,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.376936
+      value: 27.34
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1019,6 +1050,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -1093,6 +1128,10 @@ PrefabInstance:
     - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_Name
       value: Vehicle01_Vespa (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182014, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 463580, guid: 3813a5491d62c9048b4c5466b00ed841, type: 3}
       propertyPath: m_RootOrder
@@ -1186,7 +1225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.196255
+      value: 18.3
       objectReference: {fileID: 0}
     - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1230,78 +1269,4 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
   m_PrefabInstance: {fileID: 8242766741522408800}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &8978947984339950780
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 7929572588198786150}
-    m_Modifications:
-    - target: {fileID: 358867861518666410, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_Name
-      value: Coin (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0666667
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0666667
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0666667
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 18.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 9.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
---- !u!4 &8298591881536031916 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1130725421611978768, guid: c90bd77f3899f5740af0937889aadaa3, type: 3}
-  m_PrefabInstance: {fileID: 8978947984339950780}
   m_PrefabAsset: {fileID: 0}

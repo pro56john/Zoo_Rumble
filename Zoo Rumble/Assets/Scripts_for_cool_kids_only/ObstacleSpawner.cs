@@ -10,11 +10,15 @@ public class ObstacleSpawner : MonoBehaviour
     private int spawnInterval = 250; // Where does the spawning begin
     private int lastSpawnZ = 150;
     private int SpawnAmount = 2;
-
+    public float playerZ;
+    public GameObject player;
+    private Vector3 positionBeginning;
     public List<GameObject> obstacles;
     public GameObject coins;
+    
     void Start()
     {
+        
         for (int i = 0; i < initAmount; i++)
         {
             SpawnObstacles();
@@ -24,6 +28,7 @@ public class ObstacleSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         SpawnObstacles ();
     }
     public void SpawnObstacles()
@@ -36,7 +41,7 @@ public class ObstacleSpawner : MonoBehaviour
             {
                 GameObject obstacle = obstacles[Random.Range(0, obstacles.Count)];
 
-                Instantiate(obstacle, new Vector3(Random.Range(-100,100), 0.25f, lastSpawnZ), obstacle.transform.rotation); 
+                Instantiate(obstacle, new Vector3(Random.Range(-80,80), 0.25f, lastSpawnZ), obstacle.transform.rotation); 
             }
         }
     }

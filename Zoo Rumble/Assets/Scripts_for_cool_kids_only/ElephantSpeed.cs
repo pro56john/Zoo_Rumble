@@ -16,4 +16,18 @@ public class ElephantSpeed : MonoBehaviour
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime); // Benutzt die Variable somit die Elefanten sich fortbewegen mit der schneligkeit von 40-80
     }
+    private void OnCollisionEnter(Collision other)
+
+    {
+
+        
+
+        if (other.gameObject.CompareTag("Obstacle"))
+
+        {
+
+            Destroy(gameObject);
+        }
+        
+    }
 }

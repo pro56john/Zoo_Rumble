@@ -35,31 +35,34 @@ public class TestCharControler : MonoBehaviour
     void Update()
 
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (gameOver == false)
         {
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
 
-            this.transform.Translate(new Vector3(0f, 0f, 80f) * Time.deltaTime, Space.Self);
+                this.transform.Translate(new Vector3(0f, 0f, 80f) * Time.deltaTime, Space.Self);
 
 
 
+            }
+
+
+            speed = speed + 0.1f;
+            transform.Translate(Vector3.right * speed * Time.deltaTime);
+
+
+            if (Input.GetKey(KeyCode.RightArrow))
+
+
+
+            {
+
+
+
+                this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
+
+            }
         }
-
-        speed = speed + 0.1f;
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
-
-
-        if (Input.GetKey(KeyCode.RightArrow))
-
-
-
-        {
-
-
-
-            this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
-
-        }
-
         
         uiCoin.text = "coins: " + coins.ToString();
         
@@ -88,6 +91,8 @@ public class TestCharControler : MonoBehaviour
             Debug.Log("Game Over!");
 
             playerAnim.SetBool("Death_A", true);
+
+            speed = 0;
         }
         if (other.gameObject.CompareTag("Coin"))
         {
@@ -95,7 +100,7 @@ public class TestCharControler : MonoBehaviour
             coins = coins + 1;
 
         }
-
+        
     }
     private void OnTriggerEnter(Collider other)
     {
