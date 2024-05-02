@@ -484,9 +484,9 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.0582932, g: 0.9716981, b: 0.050418302, a: 1}
     m_HighlightedColor: {r: 0.18396226, g: 0.735849, b: 0.20479375, a: 1}
-    m_PressedColor: {r: 0.40131038, g: 0.7169812, b: 0.1792453, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_PressedColor: {r: 0.18431373, g: 0.7372549, b: 0.20392159, a: 1}
+    m_SelectedColor: {r: 0.18431373, g: 0.7372549, b: 0.20392159, a: 1}
+    m_DisabledColor: {r: 0.18431373, g: 0.7372549, b: 0.20392159, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -504,7 +504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 47726080}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39162023}
+        m_TargetAssemblyTypeName: GameOverScript, Assembly-CSharp
+        m_MethodName: RestartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &47726080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2636,6 +2648,7 @@ MonoBehaviour:
   gameOver: 0
   uiCoin: {fileID: 781274467}
   player: {fileID: 0}
+  GameOverScript: {fileID: 39162023}
 --- !u!95 &555826839
 Animator:
   serializedVersion: 3
@@ -4152,10 +4165,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.0509804, g: 0.37086195, b: 0.972549, a: 1}
-    m_HighlightedColor: {r: 0.18396226, g: 0.735849, b: 0.20479375, a: 1}
+    m_HighlightedColor: {r: 0.18039216, g: 0.5764706, b: 0.7176471, a: 1}
     m_PressedColor: {r: 0.18039213, g: 0.5770684, b: 0.7176471, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.18039216, g: 0.5764706, b: 0.7176471, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4173,7 +4186,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 973653692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 39162023}
+        m_TargetAssemblyTypeName: GameOverScript, Assembly-CSharp
+        m_MethodName: ExitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &973653692
 MonoBehaviour:
   m_ObjectHideFlags: 0
