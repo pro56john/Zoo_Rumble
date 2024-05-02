@@ -19,7 +19,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     void Update()
     {
         playerZ = player.transform.position.z; 
-        lowerBound = playerZ - 20f; // Dies erstellt eine Boundrie dies sich mit dem Spieler bewegt
+        lowerBound = playerZ - 100f; // Dies erstellt eine Boundrie dies sich mit dem Spieler bewegt
         if (transform.position.z < lowerBound)
         {
             Destroy(gameObject); // Dies zersoert die Objekten die ausserhalb von der Boundrie gehen

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2679124637910388150}
   - component: {fileID: 5719313637351015714}
+  - component: {fileID: 6834910396477463773}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Obstacle
@@ -46,6 +47,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectableLanesX: []
   collectableJumpsX: []
+--- !u!65 &6834910396477463773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3343352099421624076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2440174, y: 5.1930566, z: 7.054879}
+  m_Center: {x: 2.2954888, y: 2.3456793, z: 3.0329351}
 --- !u!1 &6014674851714217419
 GameObject:
   m_ObjectHideFlags: 0
