@@ -19,6 +19,7 @@ public class TestCharControler : MonoBehaviour
 
 
     // Start is called before the first frame update 
+    public GameOverScript GameOverScript;
 
     void Start()
 
@@ -68,10 +69,6 @@ public class TestCharControler : MonoBehaviour
         
     }
 
-    
-
-
-
     private void OnCollisionEnter(Collision other)
 
     {
@@ -87,7 +84,7 @@ public class TestCharControler : MonoBehaviour
         {
 
             gameOver = true;
-
+            GameOverScript.Setup(0);
             Debug.Log("Game Over!");
 
             playerAnim.SetBool("Death_A", true);
