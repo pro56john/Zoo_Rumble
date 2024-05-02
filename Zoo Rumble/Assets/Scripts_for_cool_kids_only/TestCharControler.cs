@@ -13,8 +13,7 @@ public class TestCharControler : MonoBehaviour
     private Animator playerAnim;
     private BoxCollider boxCollider;
     private float speed = 150f;
-    public Text uiCoin;
-    private int coins = 0;
+    public int coins = 0;
     public GameObject player;
 
 
@@ -64,8 +63,12 @@ public class TestCharControler : MonoBehaviour
 
             }
         }
+        else if (gameOver == true)
+        {
+
+        }
         
-        uiCoin.text = "coins: " + coins.ToString();
+     
         
     }
 
@@ -99,6 +102,7 @@ public class TestCharControler : MonoBehaviour
         }
         
     }
+    
     private void OnTriggerEnter(Collider other)
     {
         spawnManager.SpawnTriggerEntered();
