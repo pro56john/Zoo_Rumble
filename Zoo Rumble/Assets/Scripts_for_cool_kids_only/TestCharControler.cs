@@ -15,7 +15,9 @@ public class TestCharControler : MonoBehaviour
     private float speed = 150f;
     public int coins = 0;
     public GameObject player;
-
+    private int xRange = 105;
+    public float playerX;
+    private Vector3 positionBeginning;
 
     // Start is called before the first frame update 
     public GameOverScript GameOverScript;
@@ -28,39 +30,50 @@ public class TestCharControler : MonoBehaviour
         playerAnim = GetComponent<Animator>();
 
         boxCollider = GetComponent<BoxCollider>();
-
+        player.transform.position = positionBeginning;
+        positionBeginning.x = playerX;
     }
     // Update is called once per frame 
 
     void Update()
 
     {
+        playerX = player.transform.position.x;
+
         if (gameOver == false)
         {
-            if (Input.GetKey(KeyCode.LeftArrow))
+            if (playerX > -105f)
             {
 
-                this.transform.Translate(new Vector3(0f, 0f, 80f) * Time.deltaTime, Space.Self);
+
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+
+                    this.transform.Translate(new Vector3(0f, 0f, 80f) * Time.deltaTime, Space.Self);
 
 
 
+                }
             }
 
 
             speed = speed + 0.1f;
             transform.Translate(Vector3.right * speed * Time.deltaTime);
 
-
-            if (Input.GetKey(KeyCode.RightArrow))
-
-
-
+            if (playerX < xRange)
             {
 
+                if (Input.GetKey(KeyCode.RightArrow))
 
 
-                this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
 
+                {
+
+
+
+                    this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
+
+                }
             }
         }
         else if (gameOver == true)
@@ -83,6 +96,18 @@ public class TestCharControler : MonoBehaviour
         }
 
         else if (other.gameObject.CompareTag("Obstacle"))
+
+        {
+
+            gameOver = true;
+            GameOverScript.Setup(0);
+            Debug.Log("Game Over!");
+
+            playerAnim.SetBool("Death_A", true);
+
+            speed = 0;
+        }
+        else if (other.gameObject.CompareTag("Elephant"))
 
         {
 

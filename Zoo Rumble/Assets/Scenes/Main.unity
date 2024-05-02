@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -568, y: -37}
+  m_AnchoredPosition: {x: -1809, y: -37}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20998574
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57838a212c08de4459464f90b4d70be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiCoin: {fileID: 781274467}
+  uiCoin: {fileID: 1376080264}
 --- !u!1001 &42021472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1587,7 +1587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1, y: 10.4}
+  m_AnchoredPosition: {x: -0.1, y: 31.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384066360
@@ -2661,8 +2661,8 @@ MonoBehaviour:
   isOnGround: 1
   gameOver: 0
   coins: 0
-  player: {fileID: 0}
-
+  player: {fileID: 555826837}
+  playerX: 0
   GameOverScript: {fileID: 39162023}
 --- !u!95 &555826839
 Animator:
@@ -4836,7 +4836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4.379566, y: -45.194824}
+  m_AnchoredPosition: {x: -0.5, y: -722.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057487556
@@ -6418,7 +6418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 54.30664, y: -50.649353}
+  m_AnchoredPosition: {x: 1286.9, y: -727}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376080264
