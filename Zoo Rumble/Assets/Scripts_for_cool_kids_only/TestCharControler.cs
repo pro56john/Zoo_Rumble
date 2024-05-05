@@ -18,7 +18,7 @@ public class TestCharControler : MonoBehaviour
     private int xRange = 105;
     public float playerX;
     private Vector3 positionBeginning;
-
+    public GameObject deathParticle;
     // Start is called before the first frame update 
     public GameOverScript GameOverScript;
 
@@ -68,9 +68,6 @@ public class TestCharControler : MonoBehaviour
 
 
                 {
-
-
-
                     this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
 
                 }
@@ -106,6 +103,7 @@ public class TestCharControler : MonoBehaviour
             playerAnim.SetBool("Death_A", true);
 
             speed = 0;
+            Instantiate(deathParticle);
         }
         else if (other.gameObject.CompareTag("Elephant"))
 
@@ -114,7 +112,7 @@ public class TestCharControler : MonoBehaviour
             gameOver = true;
             GameOverScript.Setup(0);
             Debug.Log("Game Over!");
-
+            Instantiate(deathParticle);
             playerAnim.SetBool("Death_A", true);
 
             speed = 0;
