@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ElephantSpeed : MonoBehaviour
 {
-    private float speed; // Variablen für den Code
+    private float speed; // Variablen fuer den Code
     // Start is called before the first frame update
     void Start()
     {

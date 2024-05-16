@@ -10,7 +10,7 @@ public class SpawnAnimals : MonoBehaviour
     private int animalIndex;
     private int test = 1;
     private float SpawnRangeX = 100;
-    private float SpawnRangeZoffset = 800;
+    private float SpawnRangeZoffset = 2000;
     private float startDelay = 0.5f;
     private float spawnInterval = 0.75f;
     private float xnew;
