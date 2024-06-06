@@ -21,6 +21,7 @@ public class TestCharControler : MonoBehaviour
     public GameObject deathParticle;
     // Start is called before the first frame update 
     public GameOverScript GameOverScript;
+    
 
     void Start()
 
@@ -121,6 +122,7 @@ public class TestCharControler : MonoBehaviour
         {
 
             coins = coins + 1;
+            
 
         }
         

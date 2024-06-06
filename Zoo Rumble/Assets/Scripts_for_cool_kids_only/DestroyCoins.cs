@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyCoins : MonoBehaviour
 {
-    
+    public AudioClip coinSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +23,7 @@ public class DestroyCoins : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
 
         {
+            AudioSource.PlayClipAtPoint(coinSound, transform.position);
             Destroy(gameObject);
         }
 
