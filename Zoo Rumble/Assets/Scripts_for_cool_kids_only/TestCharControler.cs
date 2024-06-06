@@ -19,6 +19,7 @@ public class TestCharControler : MonoBehaviour
     public float playerX;
     private Vector3 positionBeginning;
     public GameObject deathParticle;
+
     // Start is called before the first frame update 
     public GameOverScript GameOverScript;
 
@@ -39,7 +40,6 @@ public class TestCharControler : MonoBehaviour
 
     {
         playerX = player.transform.position.x;
-
         if (gameOver == false)
         {
             if (playerX > -105f)
@@ -64,13 +64,13 @@ public class TestCharControler : MonoBehaviour
             {
 
                 if (Input.GetKey(KeyCode.RightArrow))
-
-
-
                 {
                     this.transform.Translate(new Vector3(0f, 0f, -80f) * Time.deltaTime, Space.Self);
 
                 }
+            }
+            if (Input.GetKey(KeyCode.Space))
+            {
             }
         }
         else if (gameOver == true)
